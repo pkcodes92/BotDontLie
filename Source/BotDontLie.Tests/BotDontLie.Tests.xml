@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BotDontLie.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:BotDontLie.Tests.BotDontLieServiceTests">
+            <summary>
+            This is the test for all of the Bot Dont Lie service methods.
+            </summary>
+        </member>
+        <member name="F:BotDontLie.Tests.BotDontLieServiceTests.ApiClient">
+            <summary>
+            This is the API client.
+            </summary>
+        </member>
+        <member name="M:BotDontLie.Tests.BotDontLieServiceTests.Setup">
+            <summary>
+            This is the one time setup method.
+            </summary>
+        </member>
+        <member name="M:BotDontLie.Tests.BotDontLieServiceTests.GetAllTeamsTest">
+            <summary>
+            This is the test to get all of the teams.
+            </summary>
+            <returns>If the method was able to run or not.</returns>
+        </member>
+        <member name="M:BotDontLie.Tests.BotDontLieServiceTests.GetTeamByTeamNameTest">
+            <summary>
+            This method will test getting the necessary team by their name.
+            </summary>
+            <returns>If the method was able to run or not.</returns>
+        </member>
+        <member name="M:BotDontLie.Tests.BotDontLieServiceTests.GetTeamByIdTest">
+            <summary>
+            This method will get the team by the ID.
+            </summary>
+            <returns>A task that would signify if the method has run properly.</returns>
+        </member>
+    </members>
+</doc>
